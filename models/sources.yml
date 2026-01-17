@@ -1,0 +1,12 @@
+sources:
+  - name: demo_bike
+    database: dbt_demo  
+    schema: bike  
+    tables:
+      - name: bike_details
+
+  - name: demo_weather
+    database: dbt_demo
+    schema: raw
+    tables:
+      - name: weather
